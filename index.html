@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS Event Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎉 Welcome to the JS Playground!</h1>
+
+  <!-- Event Buttons -->
+  <button id="clickBtn">Click Me</button>
+  <button id="hoverBtn">Hover Over Me</button>
+  <input id="keyInput" placeholder="Type something..." />
+
+  <!-- Secret double-click -->
+  <div id="secretBox">🤫 Double Click Me</div>
+
+  <!-- Image Gallery -->
+  <div class="gallery">
+    <img src="https://via.placeholder.com/150" alt="Gallery Image" id="galleryImage">
+    <button id="nextImage">Next Image</button>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tab" data-tab="tab1">Tab 1</button>
+    <button class="tab" data-tab="tab2">Tab 2</button>
+    <div id="tab1" class="tab-content">Content for Tab 1</div>
+    <div id="tab2" class="tab-content hidden">Content for Tab 2</div>
+  </div>
+
+  <!-- Form -->
+  <form id="form">
+    <input type="text" id="name" placeholder="Name" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Password" required />
+    <span id="feedback"></span>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
